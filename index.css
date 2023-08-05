@@ -1,0 +1,308 @@
+.logo{
+    width: 10%;
+   align-content: center;
+   margin-left: 160px;
+   margin-top: 23px;
+
+}
+.navdiv{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 110px;
+ 
+}
+.navdiv ul{
+   text-decoration: none;
+   
+   margin-top: 40px;
+   align-content: center;
+   
+}
+.navdiv li{
+   list-style: none;
+   display: inline;
+   text-emphasis-color: black;
+   font-weight:450px;
+   margin-right: 25px;
+   margin-right: 50px;
+}
+.banarcard{
+   position: relative;
+}
+.banarcard img{
+   max-width: 100%;
+   height: auto;
+}
+.banartext{
+   position:absolute;
+   top: 0;
+   margin-left: 250px;
+   margin-top:40px;
+} 
+.banartext h1{
+   color:#6b54b4
+}
+.tha{
+   color: #ccc;
+}
+.banartext h2{
+   color:#58449e;
+  text-decoration-style: inherit;
+  font-size: 30px;
+}
+.banartext p{
+   margin-top: px;
+   color: #5435b9;
+   
+   
+}
+.button{
+  width: 200px;
+  height: 50px;
+   background-color: rgb(91, 38, 141);
+   border-radius:40px;
+   border: none;
+   margin-top: 15px;
+}
+.button p{
+   color:rgb(255, 253, 253);
+   font-weight:bold;
+   font-size: 15px;
+  
+}
+.section-2{
+   margin-left: 650px;
+   align-items: center;
+   cursor: pointer;
+   
+}
+/* .circle{
+   
+   
+} */
+.radioinput{
+   cursor: pointer;
+   display: inline-flex;
+   align-items: center;
+   width: 1.23em;
+   height: 1.23em;
+   border: 2px solid rgb(91, 38, 141);
+   border-radius: 50%;
+   color: #000;
+}
+.section-3{ 
+    margin-top: 70px;
+   margin-left: 70px;
+   
+   display: flex;
+   
+   width: 100%;
+}
+.box2{
+margin-bottom: 50px;
+height: 50%;
+width: 50%;
+
+}
+.box1{
+height: 90%;
+width: 50%;
+margin-left: 90px;
+
+}
+.box1 hr{
+ margin-right: 100px;
+ margin-top: 50px;
+}
+.box1 h1{
+   font-weight: 20px;
+   color: rgb(94, 36, 148);
+   margin-top:70px ;
+   font-size: 40px;
+
+}
+.box1 h2{
+   font-weight: 6;
+}
+.box1 p{
+   color: rgb(165, 164, 164);
+}
+.section-4{
+   width: 100%;
+}
+.section-4 img{
+   align-content: center;
+   align-items: center;
+   width: 35%;
+   margin-left: 500px;
+}
+.image1{
+
+   height:80px;
+}
+
+.section-5{
+    max-width: 950px;
+    height: 400px;
+    min-width: 100px;
+    display:flex;
+    flex-direction: row; 
+    align-items: center;
+    align-content: space-around;
+    gap:0px;
+    
+    margin: 150px auto;
+    
+}
+.image{
+   position: relative;
+   width: 20%;
+   height: inherit;
+   padding: 0px;
+   cursor: pointer;
+   transition:  width .5s ;
+   
+  
+}
+.image img{
+   position: absolute;
+   
+   /* width: 100%; */
+   /* height: 50%; */
+   /* top: 0;
+   left: 0; */
+   object-fit: cover;
+   
+   
+   border-radius:15px;
+   
+}
+
+.image:hover{
+   width: 100%;
+}
+
+
+.button1{
+   margin-left: 650px;
+   border: 1px solid rgb(91, 38, 141);
+   border-radius: 30px;
+   width: 210px;
+   height: 50px;
+   
+}
+.p{
+   
+   margin-left: 300px;
+   font-size: 20px;
+   
+}.p1{
+   margin-left: 320px;
+   font-size: 20px;
+}
+.p2{
+   margin-left: 340px;
+   font-size: 20px;
+}
+.p3{
+   margin-left: 750px;
+   color: rgb(79, 37, 233);
+   font-size: 15px;
+}
+.section-6{
+   background-color: #e0dbf1;
+   width: 100%;
+   height: 100%;
+}
+.section6h1{
+   margin-left: 630px;
+   color:#6446c5;
+   margin-top: 80px;
+}
+.section6h{
+   margin-left: 550px;
+   color:#6446c5;
+}
+.btn{
+   margin-left: 640px;
+   height: 50px;
+   width: 190px;
+   border: none;
+   color: #ccc;
+   font-weight: bold;
+   border-radius: 120px;
+   background-color: rgb(8, 189, 235);;
+}
+.footer{
+   width: 100%;
+   height: 100%;
+}
+.logofooter{
+   size: 10px;
+   width: 100%;
+   height: 100%;
+  
+}
+.logofooter img{
+  position: absolute;
+   width: 160px;
+}
+.footer-menu{
+   
+   display: flex;
+   justify-content: space-between;
+   margin-left: 115px;
+}
+.footer-menu-item ul{
+  list-style: none;
+ 
+}
+.footer-menu-item a{
+   text-decoration: none;
+   line-height: 2.5;
+   font-size: 16px;
+   color: rgb(87, 85, 85);
+
+}
+.footer-menu-item h2{
+   margin-left: 29px;
+   margin-top: 0;
+
+}
+
+.footer-menu-item{
+ margin-left: 20px;
+
+}
+.footerh2{
+   font-size: 20px;
+}
+.footerbutton{
+   margin-left: 25px;
+   margin-top: 10px;
+   height: 40px;
+   border-radius: 10px;
+   
+}
+.footerbutton p{
+   font-size: 13px;
+   font-weight: bold;
+}
+.footerbottam{
+   width: 100%;
+   height: 100%;
+}
+.footerbox1{
+   width: 50%;
+   height: 50%;
+}
+.footerbox1 h4{
+   margin-left: 460px;
+   font-weight: 10;
+   font-size: 20px;
+   color: rgb(141, 137, 137);
+}
+.footerbox2{
+  margin-left: 400px;
+}
